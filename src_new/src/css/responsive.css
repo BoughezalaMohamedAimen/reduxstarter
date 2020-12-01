@@ -1,0 +1,39 @@
+
+@media  (max-width: 800px) {
+
+}
+
+@media  (min-width: 601px) {
+  .center-absolute-md
+  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+
+.img-rounded-right-md{
+  border-radius: 0 120px 120px 0
+}
+
+.custom-card{
+  min-height: 300px;
+  position: sticky;
+}
+
+}
+
+.img-rounded-top{
+  border-radius: 120px 120px 0 0
+}
+.center-absolute
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
